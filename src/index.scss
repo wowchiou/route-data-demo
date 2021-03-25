@@ -31,5 +31,26 @@ h1 {
 }
 
 h2 {
+  font-size: 3rem;
   font-weight: getFontWeight(bold);
+}
+
+// // 過場動畫元素css設定
+.animates {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.animate1 {
+  background-color: #000;
+}
+.animate2 {
+  background-color: #555;
+}
+.animate3 {
+  background-color: #aaa;
 }

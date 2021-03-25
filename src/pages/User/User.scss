@@ -1,0 +1,12 @@
+.user {
+  nav {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      &:not(:first-child) {
+        margin-top: 2rem;
+      }
+    }
+  }
+}

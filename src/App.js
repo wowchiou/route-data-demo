@@ -1,15 +1,15 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import React, { Suspense } from 'react';
 
-import Home from './pages/home';
+import { routes } from '@routes';
+import CreateRoutes from '@routes/CreateRoutes';
 
 function App() {
   return (
-    <div className="app">
-      <Switch>
-        <Route exact path="/" component={Home} />
-      </Switch>
-    </div>
+    <Suspense fallback={<div>LOADING...</div>}>
+      <div className="app">
+        <CreateRoutes routes={routes} />
+      </div>
+    </Suspense>
   );
 }
 

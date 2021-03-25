@@ -13,6 +13,7 @@ module.exports = {
       '@components': '../src/components/',
       '@containers': '../src/containers/',
       '@pages': '../src/pages/',
+      '@routes': '../src/routes/',
     };
 
     Object.keys(redirectAliasPath).forEach((itm) => {

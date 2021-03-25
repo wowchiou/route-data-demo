@@ -1,9 +1,9 @@
 import React from 'react';
-import Input from '.';
+import Input from './Input';
 
 export default {
-  title: 'Comp/Input',
-  components: Input,
+  title: 'Componentss/Input',
+  component: Input,
 };
 
 const Template = (args) => <Input {...args} />;

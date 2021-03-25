@@ -125,7 +125,7 @@ const createComponentFolder = async ({ name, scope }) => {
         getContent: () => getComponentContent(componentName),
       },
       sass_module: {
-        path: `${componentFolder}\\${componentName}.module.scss`,
+        path: `${componentFolder}\\${componentName}.scss`,
         getContent: () => getSassContent(componentName),
       },
       storybook: {

@@ -1,9 +1,9 @@
 import React from 'react';
-import Footer from '.';
+import Footer from './Footer';
 
 export default {
-  title: 'Comp/Footer',
-  components: Footer,
+  title: 'Componentss/Footer',
+  component: Footer,
 };
 
 const Template = (args) => <Footer {...args} />;

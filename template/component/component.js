@@ -1,9 +1,9 @@
 import React from 'react';
-import style from './COMPONENT_NAME.module.scss';
+import './COMPONENT_NAME.scss';
 import PropTypes from 'prop-types';
 
 const COMPONENT_NAME = (props) => {
-  return <div className={style.COMPONENT_NAME}>COMPONENT_NAME</div>;
+  return <div className="COMPONENT_NAME">COMPONENT_NAME</div>;
 };
 
 COMPONENT_NAME.propTypes = {};
